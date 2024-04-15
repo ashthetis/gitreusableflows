@@ -1,0 +1,23 @@
+apiVersion: v1.0.0
+kind: Component
+metadata:
+  name: Ash-Repo-gitreusableflows
+  description: |
+    This is a test repository from Ash github account
+  links:
+    - title: Website
+      url: https://github.com/ashthetis
+    - title: Documentation
+      url: https://backstage.io/docs/overview/what-is-backstage/
+    - title: Storybook
+      url: https://backstage.io/docs/overview/what-is-backstage/
+    - title: Discord Chat
+      url: https://backstage.io/docs/overview/what-is-backstage/
+  annotations:
+    github.com/project-slug: test/test
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://github.com/ashthetis/gitreusableflows/new/main
+spec:
+  type: library
+  owner: Ash Mcdoanlds
+  lifecycle: experimental
